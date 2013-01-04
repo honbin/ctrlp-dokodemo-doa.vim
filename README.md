@@ -1,10 +1,8 @@
 # ctrlp-dokodemo-doa.vim
-Extensions for ctrlp.vim
-provide commands on your project's path settings
+Extensions for ctrlp.vim. provide commands on your project's path settings
 
 ## Settings(`~/.vimrc`.)
 
-    ```vim
     " example for dokodemo_doa_settings
     let g:ctrlp_dokodemo_doa_settings = {
     \  'YourProject' : {
@@ -26,13 +24,12 @@ provide commands on your project's path settings
     \    }
     \  },
     \}
-    ```
 
 ## Usage
 
 - provide commands on example settings
 
-        :CtrlPDDYourProjectController
+   :CtrlPDDYourProjectController
 
 ## Install
 
