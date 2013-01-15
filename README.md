@@ -6,7 +6,7 @@ Extensions for ctrlp.vim. provide commands on your project's path settings
     " example for dokodemo_doa_settings
     let g:ctrlp_dokodemo_doa_settings = {
     \  'YourProject' : {
-    \    'app_path' : '/path/to/your_app_path/,
+    \    'app_path' : '/path/to/your_app_path/',
     \    'available' : 1,
     \    'role_paths' : {
     \      'Controller' : 'path/to/controllers/',
@@ -15,7 +15,7 @@ Extensions for ctrlp.vim. provide commands on your project's path settings
     \    }
     \  },
     \  'YourProject2' : {
-    \    'app_path' : '/path/to/your_app_path/,
+    \    'app_path' : '/path/to/your_app_path/',
     \    'available' : 1,
     \    'role_paths' : {
     \      'Controller' : 'path/to/controllers',
